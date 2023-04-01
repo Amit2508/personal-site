@@ -99,7 +99,7 @@ section:nth-child(2n + 1) {
 }
 
 section:target {
-    background-color: cyan;
+    background-color: rgb(238, 249, 249);
 }
 
 
@@ -366,7 +366,7 @@ section:target {
 
 
 
-    background-color: #0abcf9;
+    background-color: #e9edef;
     background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
     /*background-image: linear-gradient(50deg,#2857a4 0%, #5378b1 74%);*/
     /*background-image: linear-gradient(170deg,#2857a4 0%, #8496b2 74%);*/
@@ -535,4 +535,98 @@ button:focus {
 /* common margin classes */
 .m0 {
     margin: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #262626;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Footer bar styles */
+  .bottom-bar {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 0;
+  }
+  
+  .bottom-bar p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .bottom-bar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .bottom-bar a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+a{
+    color: white;
 }
